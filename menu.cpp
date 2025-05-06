@@ -5,20 +5,29 @@ using namespace std;
 
 void dMenu(){
 system("cls");
-cout<<"Aplikasi Tampilan Menu"<<"\n";       
-cout<<"1. Menu Pertama"<<"\n";            
-cout<<"2. Menu Kedua"<<"\n";            
-cout<<"3. Menu Ketiga"<<"\n";           
-cout<<"4. Menu Keempat"<<"\n";            
+cout<<"Aplikasi Sorting Array"<<"\n";       
+cout<<"1. Masukan Data"<<"\n";            
+cout<<"2. Menampilkan"<<"\n";            
+cout<<"3. Sorting"<<"\n";           
+cout<<"4. Sepatah Kata"<<"\n";            
 cout<<"5. Exit"<<"\n";           
 cout<<"Masukan angka :";        
 
 }
 
+
+
 void mPertama(string pesan){
 system("cls");
 cout<<"hallo saya menu "<<pesan;
 getch();
+}
+
+void SepatahKata(){
+  system("cls");
+  cout<<"Runtuhlah negeri ini tanpa ide dan motivasi, majukan bangsa dimulai dari diri sendiri";
+  cout<<"Poliban 2025";
+  getch();
 }
 
 
@@ -44,7 +53,7 @@ do
     break;  
    case '4':
     mPertama("ke- empat");
-    /* code */
+    SepatahKata();
     break;  
   case '5':
     /* code */
