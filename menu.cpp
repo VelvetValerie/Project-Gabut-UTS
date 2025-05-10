@@ -17,7 +17,7 @@ cout<<"hallo saya menu "<<pesan;
 getch();
 }
 
-  void masukkanData(){
+  void masuktampilsortingData(){
     const int N = 5;
     int data[N];
 
@@ -82,7 +82,7 @@ do
   {
    case '1':
     mPertama("pertama");
-    masukkanData();
+    masuktampilsortingData();
     break;
    case '2':
     mPertama("ke- dua");
